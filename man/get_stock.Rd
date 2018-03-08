@@ -17,3 +17,6 @@ magic_eightball(stock)
 \description{
 Get the jumping rivers stock price
 }
+\examples{
+get_stock()
+}

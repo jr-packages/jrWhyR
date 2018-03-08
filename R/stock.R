@@ -20,6 +20,8 @@ globalVariables("stock")
 #' @param current A data
 #' @importFrom lubridate seconds ymd_hms
 #' @export
+#' @examples
+#' get_stock()
 get_stock = function(current= NULL) {
   if(is.null(current)) {
     current = as.integer(unclass(Sys.time()))
