@@ -9,10 +9,10 @@ Description: Practicals and data sets for the Why R course run by Jumping
 URL: https://www.jumpingrivers.com/
 License: GPL-3
 Depends:
-    R (>= 3.3.0), 
+    R (>= 3.3.0)
 Imports:
-    tibble, lubridate
+  tibble, lubridate
 Suggests:
-    knitr, tidyverse, kableExtra
+    knitr, kableExtra, tidyverse, plotly, DT, heatmaply, ggplot2movies, shiny
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1
