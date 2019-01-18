@@ -1,7 +1,7 @@
 Package: jrWhyR
 Type: Package
 Title: Jumping Rivers: Why use R
-Version: 0.1.2
+Version: 0.1.3
 Authors@R: c(person("Jamie", "Owen", email="jamie@jumpingrivers.com", role = c("aut", "cre")),
               person("Colin", "Gillespie", email="colin@jumpingrivers.com", role = "aut"))
 Description: Practicals and data sets for the Why R course run by Jumping
@@ -11,8 +11,8 @@ License: GPL-3
 Depends:
     R (>= 3.3.0)
 Imports:
-  tibble, lubridate
+  tibble, lubridate, heatmaply
 Suggests:
-    knitr, kableExtra, tidyverse, plotly, DT, heatmaply, ggplot2movies, shiny, plumber
+    knitr, kableExtra, tidyverse, plotly, DT,  ggplot2movies, shiny, plumber
 VignetteBuilder: knitr
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1

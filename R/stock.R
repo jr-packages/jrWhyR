@@ -9,7 +9,8 @@
 # saveRDS(dd, file = "/tmp/dd.rds")
 #
 
-
+# Dummy import
+#' @importFrom heatmaply Greens
 globalVariables("stock")
 
 
