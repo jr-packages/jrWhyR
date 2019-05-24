@@ -1,20 +1,6 @@
-# logo = readRDS("~/logo.rds")
-# x = logo[logo$line == 1, 1]
-# x = x - min(x)
-# y = logo[logo$line == 1, 2]
-# tmp = xspline(c(x, max(x) + x + 25), c(y, y), draw = FALSE, shape = -0.35)
-# dd = data.frame(x = tmp$x, y = tmp$y)
-# dd = dd[371:1699,]
-# dd$x = dd$x - min(dd$x)
-# saveRDS(dd, file = "/tmp/dd.rds")
-#
-
 # Dummy import
 #' @importFrom heatmaply Greens
 globalVariables("stock")
-
-
-#library(lubridate)
 
 #' Get the jumping rivers stock price
 #' 
@@ -24,11 +10,11 @@ globalVariables("stock")
 #' @examples
 #' get_stock()
 get_stock = function(current= NULL) {
-  if(is.null(current)) {
+  if (is.null(current)) {
     current = as.integer(unclass(Sys.time()))
   }
   tmp = new.env()
-  data(stock, package= "jrWhyR", envir = tmp)
+  data(stock, package = "jrWhyR", envir = tmp)
   dd = tmp$stock
   m = max(dd$x)
   x = dd$x; y = dd$y
