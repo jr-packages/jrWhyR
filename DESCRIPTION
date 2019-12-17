@@ -1,7 +1,7 @@
 Package: jrWhyR
 Type: Package
 Title: Jumping Rivers: Why use R
-Version: 0.1.4
+Version: 0.1.5
 Authors@R: c(person("Jamie", "Owen", email="jamie@jumpingrivers.com", role = c("aut", "cre")),
               person("Colin", "Gillespie", email="colin@jumpingrivers.com", role = "aut"))
 Description: Practicals and data sets for the Why R course run by Jumping
@@ -9,7 +9,7 @@ Description: Practicals and data sets for the Why R course run by Jumping
 URL: https://www.jumpingrivers.com/
 License: GPL-3
 Depends:
-    R (>= 3.3.0)
+    R (>= 3.5.0)
 Imports:
   tibble, lubridate, heatmaply
 Suggests:
