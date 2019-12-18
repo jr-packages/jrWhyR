@@ -1,5 +1,4 @@
 # Dummy import
-#' @importFrom heatmaply Greens
 globalVariables("stock")
 
 #' Get the jumping rivers stock price

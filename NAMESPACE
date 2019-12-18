@@ -2,7 +2,6 @@
 
 export(get_stock)
 export(magic_eightball)
-importFrom(heatmaply,Greens)
 importFrom(lubridate,seconds)
 importFrom(lubridate,ymd_hms)
 importFrom(utils,data)
