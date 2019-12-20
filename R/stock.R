@@ -17,7 +17,7 @@ get_stock = function(current= NULL) {
   dd = tmp$stock
   m = max(dd$x)
   x = dd$x; y = dd$y
-  dd_extend = data.frame(x = c(x - max(x), x ), y = c(y, y))
+  dd_extend = data.frame(x = c(x - max(x), x), y = c(y, y))
 
   end = current %% m
   start = end - m  + 100
