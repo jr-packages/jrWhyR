@@ -1,7 +1,7 @@
 Type: Package
 Package: jrWhyR
 Title: Jumping Rivers: Why use R
-Version: 0.1.6
+Version: 0.1.7
 Authors@R: 
     person(given = "Jumping",
            family = "Rivers",
