@@ -1,7 +1,7 @@
 Type: Package
 Package: jrWhyR
 Title: Jumping Rivers: Why use R
-Version: 0.1.7
+Version: 0.1.71
 Authors@R: 
     person(given = "Jumping",
            family = "Rivers",
@@ -19,6 +19,7 @@ Imports:
 Suggests:
     DT,
     ggplot2movies,
+    hrbrthemes,
     kableExtra,
     knitr,
     lintr,
