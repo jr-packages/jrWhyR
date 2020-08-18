@@ -1,0 +1,16 @@
+---
+title: "Automated reporting"  
+author: "Colin Gillespie"  
+output: html_document  
+---
+
+# Level 1 header
+## Level 2 header
+
+A single underscores gives _italics_
+
+What does two underscores give?
+
+
+
+

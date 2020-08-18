@@ -1,7 +1,7 @@
 Type: Package
 Package: jrWhyR
 Title: Jumping Rivers: Why use R
-Version: 0.1.71
+Version: 0.2.0
 Authors@R: 
     person(given = "Jumping",
            family = "Rivers",
@@ -31,4 +31,4 @@ Suggests:
 VignetteBuilder: 
     knitr
 Encoding: UTF-8
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1

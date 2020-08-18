@@ -1,0 +1,32 @@
+---
+title: "Jumping Rivers Stock Report"  
+author: "Colin Gillespie"  
+output: html_document  
+---
+```{r, echo = FALSE}
+## Loading datasets and packages
+library("ggplot2")
+library("jrWhyR")
+```
+
+## Retrieve the data
+
+```{r, echo = FALSE}
+stock = get_stock()
+```
+
+```{r, echo = FALSE}
+ggplot(stock) + 
+  geom_line(aes(time, value))
+```
+
+## Should I buy/sell?
+
+You should 
+
+```{r}
+magic_eightball(stock)
+```
+
+---
+This report was last updated at `r Sys.time()`
